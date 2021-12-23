@@ -10,3 +10,24 @@
 --- b'class' - используйте маркировку b''
 --- используйте списки и циклы, не дублируйте функции
 """
+a = [b'class', b'function', b'method']
+for i in a:
+    print(type(i))
+    print(i)
+    print(len(i))
+    print('---')
+
+"""
+<class 'bytes'>
+b'class'
+5
+---
+<class 'bytes'>
+b'function'
+8
+---
+<class 'bytes'>
+b'method'
+6
+---
+"""

@@ -23,3 +23,12 @@
 
 НАРУШЕНИЕ обозначенных условий - задание не выполнено!!!
 """
+file_open = open('test_file.txt', 'rb')
+print(file_open)
+if file_open:
+    print('file opened succesfully')
+
+"""
+<_io.BufferedReader name='test_file.txt'>
+file opened succesfully
+"""
